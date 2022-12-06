@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+C = "Hello"
+while read line; 
+do 
+echo $line; 
+done < $1
